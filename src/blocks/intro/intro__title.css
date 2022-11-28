@@ -1,0 +1,19 @@
+.intro__title {
+  position: static;
+  margin: 0;
+  font-size: 150px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.intro__title:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  margin: 40px auto 30px;
+
+  background-color: #ffffff;
+}

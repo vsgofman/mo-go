@@ -1,0 +1,13 @@
+.blog__date {
+  padding: 10px 15px;
+  background-color: #95e1d3;
+  font-style: italic;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 300;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: -10px;
+  z-index: 1;
+}

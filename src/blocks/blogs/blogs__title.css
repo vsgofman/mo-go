@@ -1,0 +1,12 @@
+.blogs__title {
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #333333;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.blogs__title:hover {
+  text-decoration: underline;
+}

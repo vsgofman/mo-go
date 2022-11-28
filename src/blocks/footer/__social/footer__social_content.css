@@ -1,0 +1,19 @@
+.footer__social_content {
+  padding-top: 15px;
+
+  font-size: 15px;
+  color: #999999;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.footer__social_content a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+
+  font-size: 18px;
+  color: #95e1d3;
+
+  text-decoration: none;
+}

@@ -1,0 +1,6 @@
+.section_map {
+  background: #e6e6e6 url("../images/map-bg.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 40px 0;
+}

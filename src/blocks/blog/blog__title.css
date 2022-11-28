@@ -1,0 +1,16 @@
+.blog__title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.blog__title a {
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+}
+
+.blog__title a:hover {
+  text-decoration: underline;
+}

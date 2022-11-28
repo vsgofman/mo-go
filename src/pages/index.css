@@ -1,0 +1,398 @@
+@import url("../vendor/normalize.css");
+@import url("../blocks/page.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/header__inner.css");
+@import url("../blocks/header/header__logo.css");
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/intro/intro__inner.css");
+@import url("../blocks/intro/intro__subtitle.css");
+@import url("../blocks/intro/intro__title.css");
+@import url("../blocks/container.css");
+@import url("../blocks/btn.css");
+@import url("../blocks/nav/nav.css");
+@import url("../blocks/nav/nav__link.css");
+@import url("../blocks/slider/slider.css");
+@import url("../blocks/slider/slider__inner.css");
+@import url("../blocks/slider/slider__num.css");
+@import url("../blocks/slider/__item/slider__item.css");
+@import url("../blocks/slider/__item/slider__item_active.css");
+@import url("../blocks/services/services.css");
+@import url("../blocks/services/services__icon.css");
+@import url("../blocks/services/services__item.css");
+@import url("../blocks/services/services__text.css");
+@import url("../blocks/services/services__title.css");
+@import url("../blocks/image/image__item.css");
+@import url("../blocks/card/card.css");
+@import url("../blocks/card/card__image.css");
+@import url("../blocks/card/card__info.css");
+@import url("../blocks/card/card__inner.css");
+@import url("../blocks/card/card__item.css");
+@import url("../blocks/card/card__name.css");
+@import url("../blocks/card/card__prof.css");
+@import url("../blocks/card/card__text.css");
+@import url("../blocks/statistics.css");
+@import url("../blocks/stat/stat.css");
+@import url("../blocks/stat/stat__item.css");
+@import url("../blocks/stat/stat__num.css");
+@import url("../blocks/stat/stat__text.css");
+@import url("../blocks/social/social.css");
+@import url("../blocks/social/social__item.css");
+@import url("../blocks/blog/blog.css");
+@import url("../blocks/blog/blog__content.css");
+@import url("../blocks/blog/blog__footer.css");
+@import url("../blocks/blog/blog__header.css");
+@import url("../blocks/blog/blog__item.css");
+@import url("../blocks/blog/blog__photo.css");
+@import url("../blocks/blog/blog__text.css");
+@import url("../blocks/blog/blog__title.css");
+@import url("../blocks/blog/__date/blog__date.css");
+@import url("../blocks/blog/__date/blog__date_day.css");
+@import url("../blocks/logos.css");
+
+
+@import url("../blocks/section/section.css");
+@import url("../blocks/section/section__header.css");
+@import url("../blocks/section/section__subtitle.css");
+@import url("../blocks/section/section__text.css");
+@import url("../blocks/section/section__title.css");
+@import url("../blocks/section/section_clients.css");
+@import url("../blocks/section/section_devices.css");
+@import url("../blocks/section/section_gray.css");
+@import url("../blocks/section/section_map.css");
+@import url("../blocks/map/map.css");
+@import url("../blocks/map/map__title.css");
+@import url("../blocks/footer/__col/footer__col_first.css");
+@import url("../blocks/footer/__col/footer__col_second.css");
+@import url("../blocks/footer/__col/footer__col_third.css");
+@import url("../blocks/footer/__social/footer__social.css");
+@import url("../blocks/footer/__social/footer__social_content.css");
+@import url("../blocks/footer/__social/footer__social_header.css");
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/footer__inner.css");
+@import url("../blocks/footer/footer__logo.css");
+@import url("../blocks/footer/footer__text.css");
+@import url("../blocks/footer/footer__title.css");
+@import url("../blocks/subscribe/subscribe.css");
+@import url("../blocks/subscribe/subscribe__btn.css");
+@import url("../blocks/subscribe/subscribe__input.css");
+@import url("../blocks/blogs/blogs__content.css");
+@import url("../blocks/blogs/blogs__date.css");
+@import url("../blocks/blogs/blogs__item.css");
+@import url("../blocks/blogs/blogs__title.css");
+@import url("../blocks/instagram/instagram.css");
+@import url("../blocks/instagram/instagram__item.css");
+@import url("../blocks/copyright.css");
+
+
+/* Devices */
+.devices {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.devices__item {
+  display: block;
+}
+
+.devices__item--iphone {
+  position: absolute;
+  bottom: -85px;
+  right: 0;
+  z-index: 1;
+
+}
+
+
+/* We do */
+.wedo {
+  display: flex;
+
+}
+
+.wedo__item {
+  width: 50%;
+
+}
+
+
+/* Accordion */
+.accordion__item {
+  border: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.accordion__item.active
+.accordion__content {
+  display: block;
+}
+
+.accordion__item.active
+.accordion__header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion__item.active
+.accordion__header:after {
+  transform: translateY(-50%) rotate(-45deg);
+  margin-top: 5px;
+}
+
+.accordion__header {
+  position: relative;
+  border-bottom: 1px solid transparent;
+  padding: 15px 20px 15px 62px;
+  cursor: pointer;
+}
+
+.accordion__header:after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+
+  border-top: 2px solid #cccccc;
+  border-right: 2px solid #cccccc;
+
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  z-index: 1;
+  transform: translateY(-50%) rotate(135deg);
+}
+
+.accordion__icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  z-index: 1;
+
+  transform: translateY(-50%);
+}
+
+.accordion__content {
+  padding: 15px 20px;
+  display: none;
+
+  font-size: 15px;
+  color: #999999;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.accordion__title {
+  text-transform: uppercase;
+  color: #333333;
+  font-size: 14px;
+}
+
+
+/* Reviews */
+.reviews {
+  padding: 0 110px;
+  position: relative;
+}
+
+.reviews__item {
+  position: relative;
+  padding-left: 255px;
+}
+
+.reviews__photo {
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.reviews__text {
+  font-size: 24px;
+  color: #999999;
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.reviews__author {
+  font-size: 24px;
+  color: #333333;
+  font-family: 'Kaushan Script', cursiv;
+}
+
+.reviews__author:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  height: 3px;
+  margin-right: 10px;
+
+  background-color: #f38181;
+}
+
+.reviews__btn {
+  font-size: 0;
+  color: transparent;
+
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+.reviews__btn:after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+
+  border-top: 2px solid #cccccc;
+  border-right: 2px solid #cccccc;  
+}
+
+.reviews__btn--prev {
+  left: 0;
+
+  transform: translateY(-50%) rotate(-135deg);
+}
+
+.reviews__btn--next {
+  right: 0;
+
+  transform: translateY(-50%) rotate(45deg);
+}
+
+/* Works */
+.works {
+  display: flex;
+  margin-top: 90px;
+}
+
+.works__col {
+  flex: 1 1 0;
+}
+
+.works__item {
+  position: relative;
+
+  background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+.works__item:hover .works__image {
+  opacity: .1;
+}
+
+.works__item:hover .works__info {
+  opacity: 1;
+}
+
+.works__image {
+  transition: opacity .2s linear;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.works__info {
+  width: 100%;
+  padding: 0 15px;
+
+  text-align: center;
+  color: #ffffff;
+  opacity: 0;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+
+  transform: translate3d(0, -50%, 0);
+  transition: opacity .2s linear;
+}
+
+.works__title {
+  margin-bottom: 5px;
+
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.works__text {
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+
+/* Clients */
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.clients__item {
+  width: 50%;
+  padding: 0 45px 0 175px;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.clients__photo {
+  width: 110px;
+  height: 110px;
+
+  border-radius: 50%;
+
+  position: absolute;
+  top: 0;
+  left: 40px;
+  z-index: 1;
+}
+
+.clients__name {
+  margin-bottom: 5px;
+
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.clients__prof {
+  font-size: 15px;
+  color: #333333;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.clients__text {
+  font-size: 15px;
+  color: #999999;
+
+}
+
+.clients__text:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 15px 0;
+
+  background-color: #f38181;
+}
+
+
+/* Blog */
+/* под блоком blog */
+.stat__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.stat__item i {
+  color: #95e1d3;
+}

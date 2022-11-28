@@ -1,0 +1,10 @@
+.slider__item {
+  width: 23%;
+  padding: 10px 0 15px;
+  position: relative;
+  border-top: 2px solid #ffffff;
+  opacity: .7;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+}

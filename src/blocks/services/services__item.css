@@ -1,0 +1,6 @@
+.services__item {
+  flex: 1 1 0;
+  padding-left: 85px;
+  padding-right: 35px;
+  position: relative;
+}

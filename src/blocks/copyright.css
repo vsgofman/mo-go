@@ -1,0 +1,13 @@
+.copyright {
+  padding: 20px 0;
+
+  border-top: 1px solid #e5e5e5;
+
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
+}
+
+.copyright span {
+  color: #f38181;
+}

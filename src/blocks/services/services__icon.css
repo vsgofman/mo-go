@@ -1,0 +1,6 @@
+.services__icon {
+  position: absolute;
+  top: 5px;
+  left: 28px;
+  z-index: 1;
+}

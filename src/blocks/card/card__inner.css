@@ -1,0 +1,16 @@
+.card__inner {
+  background-color: #95e1d3;
+  position: relative;
+}
+
+.card__inner:hover .card__img {
+  transform: translate3d(-10px, -10px, 0);
+}
+
+.card__inner:hover .card__img img {
+  opacity: .1;
+}
+
+.card__inner:hover .card__text {
+  opacity: 1;
+}

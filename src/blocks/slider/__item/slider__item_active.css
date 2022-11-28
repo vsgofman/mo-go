@@ -1,0 +1,15 @@
+.slider__item_active {
+  opacity: 1;
+}
+
+.slider__item_active:before {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 2px;
+  background-color: #f38181;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  z-index: 1;
+}

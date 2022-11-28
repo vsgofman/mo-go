@@ -1,0 +1,16 @@
+.section__title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.section__title:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 35px auto 40px;
+  background-color: #f38181;
+}

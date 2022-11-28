@@ -1,0 +1,12 @@
+.stat__item {
+  flex: 1 1 0;
+  padding: 70px 25px;
+
+  border-left: 1px solid #b5eae0;
+  color: #ffffff;
+  text-align: center;
+}
+
+.stat__item:last-child {
+  border-right: 1px solid #b5eae0;
+}
