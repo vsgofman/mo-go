@@ -1,0 +1,6 @@
+.works__image {
+  transition: opacity .2s linear;
+  display: block;
+  width: 100%;
+  height: auto;
+}

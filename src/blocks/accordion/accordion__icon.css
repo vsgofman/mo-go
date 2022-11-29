@@ -1,0 +1,7 @@
+.accordion__icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  z-index: 1;
+  transform: translateY(-50%);
+}

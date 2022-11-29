@@ -13,16 +13,14 @@
   display: none;
   width: 100%;
   height: 2px;
-  margin-top: 8px;
-
+  margin: 2px 0 0 0;
   background-color: #fce38a;
   opacity: 0;
-
   position: absolute;
   top: 100%;
   left: 0;
   z-index: 1;
-  transition: opacity .2s linear;
+  transition: opacity .1s linear;
 }
 
 .nav__link:hover {

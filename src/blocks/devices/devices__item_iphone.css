@@ -1,0 +1,6 @@
+.devices__item_iphone {
+  position: absolute;
+  bottom: -85px;
+  right: 0;
+  z-index: 1;
+}

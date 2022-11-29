@@ -1,0 +1,16 @@
+.reviews__author {
+  font-size: 24px;
+  color: #333333;
+  font-family: 'Kaushan Script', cursiv;
+}
+
+.reviews__author:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  height: 3px;
+  margin-right: 10px;
+
+  background-color: #f38181;
+}

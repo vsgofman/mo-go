@@ -1,0 +1,13 @@
+.works__item {
+  position: relative;
+
+  background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+.works__item:hover .works__image {
+  opacity: .1;
+}
+
+.works__item:hover .works__info {
+  opacity: 1;
+}

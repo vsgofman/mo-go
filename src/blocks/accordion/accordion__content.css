@@ -1,0 +1,8 @@
+.accordion__content {
+  padding: 15px 20px;
+  display: none;
+  font-size: 15px;
+  color: #999999;
+  font-style: italic;
+  font-weight: 300;
+}
