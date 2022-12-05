@@ -1,3 +1,18 @@
 .card__item {
   width: 380px;
+  height: 100%;
+  background-color: #95e1d3;
+  position: relative;
+}
+
+.card__item:hover .card__inner {
+  transform: translate3d(-10px, -10px, 0);
+}
+
+.card__item:hover .card__image {
+  opacity: .1;
+}
+
+.card__item:hover .card__text {
+  opacity: 1;
 }

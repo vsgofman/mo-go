@@ -1,4 +1,4 @@
 .card__image {
-  background: linear-gradient(to bottom, #f38181, #fce38a);
-  transition: transform .2s linear;
+  display: block;
+  transition: opacity .1s linear;
 }

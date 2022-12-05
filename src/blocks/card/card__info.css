@@ -1,4 +1,7 @@
 .card__info {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
   margin-top: 20px;
   text-align: center;
 }

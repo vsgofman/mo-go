@@ -2,3 +2,7 @@
   display: block;
   transition: opacity .1s linear;
 }
+
+.image__item:hover {
+  opacity: .1;
+}
