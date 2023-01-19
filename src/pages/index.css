@@ -14,6 +14,7 @@
 @import url("../blocks/slider/slider.css");
 @import url("../blocks/slider/slider__inner.css");
 @import url("../blocks/slider/slider__num.css");
+@import url("../blocks/slider/slider__text.css");
 @import url("../blocks/slider/__item/slider__item.css");
 @import url("../blocks/slider/__item/slider__item_active.css");
 @import url("../blocks/services/services.css");
