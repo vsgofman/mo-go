@@ -2,3 +2,9 @@
   font-size: 14px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 999px) {
+  .stat__text {
+    font-size: 12px;
+  }
+}

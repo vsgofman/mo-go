@@ -5,3 +5,15 @@
 
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__inner {
+    margin: 100px 0 0 0;    
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro__inner {
+    margin: 75px 0 0 0;    
+  }
+}

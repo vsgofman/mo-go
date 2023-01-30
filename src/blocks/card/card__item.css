@@ -1,5 +1,7 @@
 .card__item {
-  width: 380px;
+  max-width: 380px;
+  width: calc(100%/3);
+  min-width: 200px;
   height: 100%;
   background-color: #95e1d3;
   position: relative;
@@ -15,4 +17,39 @@
 
 .card__item:hover .card__text {
   opacity: 1;
+}
+
+@media screen and (max-width: 1200px) {
+  .card__item {
+    margin: 0 15px 0 0;
+  }
+
+  .card__item:last-child {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card__item {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card__item:last-child {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card__item {
+    width: 95%;
+
+  }
+
+  .card__item:last-child {
+    margin: 0;
+  }
 }

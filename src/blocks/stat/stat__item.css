@@ -1,7 +1,6 @@
 .stat__item {
   display: inline-block;
   vertical-align: top;
-  margin-right: 10px;
   flex: 1 1 0;
   padding: 70px 25px;
   border-left: 1px solid #b5eae0;
@@ -9,10 +8,28 @@
   text-align: center;
 }
 
+.stat__item:nth-child(even) {
+  border-right: 1px solid #b5eae0;
+  margin-right: 0;
+}
+
 .stat__item:last-child {
   border-right: 1px solid #b5eae0;
+  margin-right: 0;
 }
 
 .stat__item i {
   color: #95e1d3;
+}
+
+@media screen and (max-width: 1024px) {
+  .stat__item {
+    padding: 45px 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stat__item {
+    display: flex;
+  }
 }

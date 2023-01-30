@@ -106,3 +106,12 @@
 @import url("../blocks/instagram/instagram.css");
 @import url("../blocks/instagram/instagram__item.css");
 @import url("../blocks/copyright.css");
+
+/* переломные точки
+1280
+1024
+768
+425
+320
+
+470-500, 665, 999, 1100*/

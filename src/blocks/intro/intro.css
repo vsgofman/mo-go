@@ -7,3 +7,11 @@
   background: url("../../images/intro1block.jpg") center no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    justify-content: start;
+    height: 100%;
+    padding-bottom: 40px;
+  }
+}
