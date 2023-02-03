@@ -4,3 +4,23 @@
   right: 0;
   z-index: 1;
 }
+
+@media screen and (max-width: 600px) {
+  .devices__item_iphone {
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .devices__item_iphone {
+    left: 165px;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .devices__item_iphone {
+    left: 120px;
+    bottom: -50px;
+  }
+}

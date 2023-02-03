@@ -1,3 +1,17 @@
 .wedo__item {
   width: 50%;
+  min-width: 485px;
+}
+
+@media screen and (max-width: 1023px) {
+  .wedo__item {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .wedo__item {
+    width: 80%;
+    min-width: 280px;
+  }
 }

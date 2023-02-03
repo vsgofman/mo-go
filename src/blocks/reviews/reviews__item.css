@@ -2,3 +2,21 @@
   position: relative;
   padding-left: 255px;
 }
+
+@media screen and (max-width: 870px) {
+  .reviews__item {
+    padding-left: 210px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .reviews__item {
+    padding-left: 175px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .reviews__item {
+    padding-left: 0;
+  }
+}

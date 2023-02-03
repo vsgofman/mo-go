@@ -1,8 +1,21 @@
 .accordion__content {
+  margin: 0;
   padding: 15px 20px;
   display: none;
   font-size: 15px;
   color: #999999;
   font-style: italic;
   font-weight: 300;
+}
+
+@media screen and (max-width: 569px) {
+  .accordion__content {
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .accordion__content {
+    font-size: 14px;
+  }
 }

@@ -1,0 +1,30 @@
+.logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .logos {
+    grid-template-columns: repeat(3, 133px);
+    grid-template-rows: repeat(2, 133px);
+    column-gap: 35px;
+    row-gap: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logos {
+    grid-template-columns: repeat(2, 133px);
+    grid-template-rows: repeat(3, 133px);
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .logos {
+    grid-template-columns: repeat(1, 133px);
+    grid-template-rows: repeat(3, 133px);
+  }
+}

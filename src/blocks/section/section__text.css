@@ -10,8 +10,8 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 424px) {
   .section__text {
-    font-size: 13px;
+    font-size: 14px;
   }
 }

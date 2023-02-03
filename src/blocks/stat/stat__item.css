@@ -1,6 +1,5 @@
 .stat__item {
   display: inline-block;
-  vertical-align: top;
   flex: 1 1 0;
   padding: 70px 25px;
   border-left: 1px solid #b5eae0;
@@ -8,28 +7,45 @@
   text-align: center;
 }
 
-.stat__item:nth-child(even) {
-  border-right: 1px solid #b5eae0;
-  margin-right: 0;
-}
-
 .stat__item:last-child {
   border-right: 1px solid #b5eae0;
-  margin-right: 0;
 }
 
 .stat__item i {
   color: #95e1d3;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 950px) {
   .stat__item {
-    padding: 45px 15px;
+    flex: none;
+    width: 33%;
+    border: none;
+    padding: 50px 25px;
+  }
+
+  .stat__item:last-child {
+    border: none;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 610px) {
   .stat__item {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    min-width: 290px;
+    padding: 5px 0 0 0;
+  }
+
+  .stat__item:last-child {
+    padding: 0 0 5px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .stat__item {
+    min-width: 260px;
+    padding: 0;
   }
 }

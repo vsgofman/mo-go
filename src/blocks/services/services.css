@@ -1,3 +1,11 @@
 .services {
   display: flex;
 }
+
+@media screen and (max-width: 767px) {
+  .services {
+    display: grid;
+    justify-items: center;
+    row-gap: 20px;
+  }
+}

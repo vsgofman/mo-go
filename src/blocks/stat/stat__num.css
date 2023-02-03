@@ -5,8 +5,15 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 610px) {
   .stat__num {
-    font-size: 64px;
+    font-size: 65px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .stat__num {
+    font-size: 55px;
   }
 }

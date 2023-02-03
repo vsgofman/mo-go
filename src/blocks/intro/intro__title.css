@@ -17,19 +17,19 @@
   background-color: #ffffff;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .intro__title {
     font-size: 130px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .intro__title {
     font-size: 100px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro__title {
     font-size: 80px;
   }
@@ -41,7 +41,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
   .intro__title {
     font-size: 38px;
   }

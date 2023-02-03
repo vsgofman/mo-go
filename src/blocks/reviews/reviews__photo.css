@@ -3,5 +3,30 @@
   position: absolute;
   top: 0;
   left: 0;
+  max-width: 215px;
   z-index: 1;
+}
+
+@media screen and (max-width: 1023px) {
+  .reviews__photo {
+    top: 10px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .reviews__photo {
+    max-width: 180px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .reviews__photo {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .reviews__photo {
+    display: none;
+  }
 }

@@ -1,3 +1,15 @@
 .section_team {
   padding-bottom: 180px;
 }
+
+@media screen and (max-width: 767px) {
+  .section_team {
+    padding-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .section_team {
+    padding-bottom: 95px;
+  }
+}
