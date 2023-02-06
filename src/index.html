@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat: 300i,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./pages/index.css">
   <meta name="keywords" content="HTML5, CSS, БЭМ">
   <meta name="author" content="Виктор Гофман">
   <title>MoGo</title>
@@ -83,21 +82,21 @@
     <div class="card">
       <div class="card__item">
         <div class="card__inner">
-          <img class="card__image" src="./images/about/1.jpg" alt="workplace">
+          <img class="card__image" src="<%=require('./images/about/1.jpg')%>" alt="workplace">
           <div class="card__text">super team</div>
         </div>
       </div>
 
       <div class="card__item">
         <div class="card__inner">
-          <img class="card__image" src="./images/about/2.jpg" alt="workplace">
+          <img class="card__image" src="<%=require('./images/about/2.jpg')%>" alt="workplace">
           <div class="card__text">super team</div>
         </div>
       </div>
 
       <div class="card__item">
         <div class="card__inner">
-          <img class="card__image" src="./images/about/3.jpg" alt="workplace">
+          <img class="card__image" src="<%=require('./images/about/3.jpg')%>" alt="workplace">
           <div class="card__text">super team</div>
         </div>  
       </div>
@@ -145,17 +144,17 @@
     
     <div class="services">
       <div class="services__item">
-        <img class="services__icon" src="./images/services/photography.png" alt="icon">
+        <img class="services__icon" src="<%=require('./images/services/photography.png')%>" alt="icon">
         <h3 class="services__title">photography</h3>
         <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </div>
       <div class="services__item">
-        <img class="services__icon" src="./images/services/webdesign.png" alt="icon">
+        <img class="services__icon" src="<%=require('./images/services/webdesign.png')%>" alt="icon">
         <h3 class="services__title">Web Design</h3>
         <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </div>
       <div class="services__item">
-        <img class="services__icon" src="./images/services/creativity.png" alt="icon">
+        <img class="services__icon" src="<%=require('./images/services/creativity.png')%>" alt="icon">
 
         <h3 class="services__title">Creativity</h3>
         <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
@@ -166,19 +165,19 @@
 
     <div class="services">
       <div class="services__item">
-        <img class="services__icon" src="./images/services/seo.png" alt="icon">
+        <img class="services__icon" src="<%=require('./images/services/seo.png')%>" alt="icon">
 
         <h3 class="services__title">seo</h3>
         <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </div>
       <div class="services__item">
-        <img class="services__icon" src="./images/services/csshtml.png" alt="icon">
+        <img class="services__icon" src="<%=require('./images/services/csshtml.png')%>" alt="icon">
 
         <h3 class="services__title">css/html</h3>
         <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
       </div>
       <div class="services__item">
-        <img class="services__icon" src="./images/services/digital.png" alt="icon">
+        <img class="services__icon" src="<%=require('./images/services/digital.png')%>" alt="icon">
 
         <h3 class="services__title">digital</h3>
         <p class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
@@ -198,8 +197,8 @@
     </div>
 
     <div class="devices">
-      <img class="devices__item devices__item_ipad" src="./images/ipad.png" alt="design example">
-      <img class="devices__item  devices__item_iphone" src="./images/iphone.png">
+      <img class="devices__item devices__item_ipad" src="<%=require('./images/ipad.png')%>" alt="design example">
+      <img class="devices__item  devices__item_iphone" src="<%=require('./images/iphone.png')%>">
     </div>
 
   </div><!-- /.container -->
@@ -219,7 +218,7 @@
 
     <div class="wedo">
       <div class="wedo__item">
-        <img class="wedo__image" src="./images/wedo.jpg" alt="our office">
+        <img class="wedo__image" src="<%=require('./images/wedo.jpg')%>" alt="our office">
       </div>
 
       <div class="wedo__item">
@@ -227,7 +226,7 @@
 
           <div class="accordion__item active">
             <div class="accordion__header">
-              <img class="accordion__icon" src="./images/we__do/photo.png" alt="icon"></img>
+              <img class="accordion__icon" src="<%=require('./images/we__do/photo.png')%>" alt="icon"></img>
               <h3 class="accordion__title">photography</h3>
             </div>
               <p class="accordion__content">
@@ -237,7 +236,7 @@
           
           <div class="accordion__item">
             <div class="accordion__header">
-              <img class="accordion__icon" src="./images/we__do/creativity.png" alt="icon"></img>
+              <img class="accordion__icon" src="<%=require('./images/we__do/creativity.png')%>" alt="icon"></img>
               <h3 class="accordion__title">creativity</h3>
             </div>
             <div class="accordion__content">
@@ -249,7 +248,7 @@
 
           <div class="accordion__item">
             <div class="accordion__header">
-              <img class="accordion__icon" src="./images/we__do/webdesign.png" alt="icon"></img>
+              <img class="accordion__icon" src="<%=require('./images/we__do/webdesign.png')%>" alt="icon"></img>
               <h3 class="accordion__title">web design</h3>
             </div>
             <div class="accordion__content">
@@ -273,7 +272,7 @@
       <a class="reviews__btn  reviews__btn--prev" href="#">Prev</a>
       <a class="reviews__btn  reviews__btn--next" href="#">Next</a>
       <div class="reviews__item">
-        <img class="reviews__photo" src="./images/avatar1.jpg">
+        <img class="reviews__photo" src="<%=require('./images/avatar1.jpg')%>">
         <p class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
         <div class="reviews__author">Jon Doe</div>
@@ -296,7 +295,7 @@
     <div class="card">
       <div class="card__item">
         <div class="card__inner">
-          <img class="card__image" src="./images/team/01.jpg" alt="Matthew Dix">
+          <img class="card__image" src="<%=require('./images/team/01.jpg')%>" alt="Matthew Dix">
           <div class="card__text">
               <div class="social">
                 <a class="social__item" href="#" target="blank">
@@ -322,7 +321,7 @@
 
       <div class="card__item">
         <div class="card__inner">
-          <img class="card__image" src="./images/team/02.jpg" alt="Christopher Campbell">
+          <img class="card__image" src="<%=require('./images/team/02.jpg')%>" alt="Christopher Campbell">
           <div class="card__text">
               <div class="social">
                 <a class="social__item" href="#" target="blank">
@@ -348,7 +347,7 @@
 
       <div class="card__item">
         <div class="card__inner">
-          <img class="card__image" src="./images/team/03.jpg" alt="Michael Fertig">
+          <img class="card__image" src="<%=require('./images/team/03.jpg')%>" alt="Michael Fertig">
           <div class="card__text">
             <div class="social">
               <a class="social__item" href="#" target="blank">
@@ -379,12 +378,12 @@
 <div class="section  section_gray">
   <div class="container">
     <div class="logos">
-      <img class="logos__item" src="./images/logos/1.png" alt="logo example">
-      <img class="logos__item" src="./images/logos/2.png" alt="logo example">
-      <img class="logos__item" src="./images/logos/3.png" alt="logo example">
-      <img class="logos__item" src="./images/logos/4.png" alt="logo example">
-      <img class="logos__item" src="./images/logos/5.png" alt="logo example">
-      <img class="logos__item" src="./images/logos/6.png" alt="logo example">
+      <img class="logos__item" src="<%=require('./images/logos/1.png')%>" alt="logo example">
+      <img class="logos__item" src="<%=require('./images/logos/2.png')%>" alt="logo example">
+      <img class="logos__item" src="<%=require('./images/logos/3.png')%>" alt="logo example">
+      <img class="logos__item" src="<%=require('./images/logos/4.png')%>" alt="logo example">
+      <img class="logos__item" src="<%=require('./images/logos/5.png')%>" alt="logo example">
+      <img class="logos__item" src="<%=require('./images/logos/6.png')%>" alt="logo example">
     </div>
   </div><!-- /.container -->
 </div>
@@ -404,7 +403,7 @@
   <div class="works">
     <div class="works__column">
       <div class="works__item">
-        <img class="works__image" src="./images/works/1.jpg" alt="work example">
+        <img class="works__image" src="<%=require('./images/works/1.jpg')%>" alt="work example">
         <div class="works__info">
           <div class="works__title">creatively designed</div>
           <div class="works__text">Lorem ipsum dolor sit</div>
@@ -412,25 +411,7 @@
       </div>
 
       <div class="works__item">
-        <img class="works__image" src="./images/works/2.jpg" alt="work example">
-        <div class="works__info">
-          <div class="works__title">creatively designed</div>
-          <div class="works__text">Lorem ipsum dolor sit</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="works__column">
-      <div class="works__item">
-        <img class="works__image" src="./images/works/3.jpg" alt="work example">
-        <div class="works__info">
-          <div class="works__title">creatively designed</div>
-          <div class="works__text">Lorem ipsum dolor sit</div>
-        </div>
-      </div>
-
-      <div class="works__item">
-        <img class="works__image" src="./images/works/4.jpg" alt="work example">
+        <img class="works__image" src="<%=require('./images/works/2.jpg')%>" alt="work example">
         <div class="works__info">
           <div class="works__title">creatively designed</div>
           <div class="works__text">Lorem ipsum dolor sit</div>
@@ -440,7 +421,15 @@
 
     <div class="works__column">
       <div class="works__item">
-        <img class="works__image" src="./images/works/5.jpg" alt="work example">
+        <img class="works__image" src="<%=require('./images/works/3.jpg')%>" alt="work example">
+        <div class="works__info">
+          <div class="works__title">creatively designed</div>
+          <div class="works__text">Lorem ipsum dolor sit</div>
+        </div>
+      </div>
+
+      <div class="works__item">
+        <img class="works__image" src="<%=require('./images/works/4.jpg')%>" alt="work example">
         <div class="works__info">
           <div class="works__title">creatively designed</div>
           <div class="works__text">Lorem ipsum dolor sit</div>
@@ -450,7 +439,17 @@
 
     <div class="works__column">
       <div class="works__item">
-        <img class="works__image" src="./images/works/6.jpg" alt="work example">
+        <img class="works__image" src="<%=require('./images/works/5.jpg')%>" alt="work example">
+        <div class="works__info">
+          <div class="works__title">creatively designed</div>
+          <div class="works__text">Lorem ipsum dolor sit</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="works__column">
+      <div class="works__item">
+        <img class="works__image" src="<%=require('./images/works/6.jpg')%>" alt="work example">
         <div class="works__info">
           <div class="works__title">creatively designed</div>
           <div class="works__text">Lorem ipsum dolor sit</div>
@@ -458,7 +457,7 @@
       </div>
 
       <div class="works__item">
-        <img class="works__image" src="./images/works/7.jpg" alt="work example">
+        <img class="works__image" src="<%=require('./images/works/7.jpg')%>" alt="work example">
         <div class="works__info">
           <div class="works__title">creatively designed</div>
           <div class="works__text">Lorem ipsum dolor sit</div>
@@ -476,7 +475,7 @@
       <a class="reviews__btn  reviews__btn--next" href="#">Next</a>
 
       <div class="reviews__item">
-        <img class="reviews__photo" src="./images/avatar2.jpg" alt="photo">
+        <img class="reviews__photo" src="<%=require('./images/avatar2.jpg')%>" alt="photo">
         <p class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
         <div class="reviews__author">Joshua Earle</div>
       </div>
@@ -495,7 +494,7 @@
 
     <div class="clients">
       <div class="clients__item">
-        <img class="clients__photo" src="./images/clients/1.png" alt="Matthew Dix">
+        <img class="clients__photo" src="<%=require('./images/clients/1.png')%>" alt="Matthew Dix">
         <div class="clients__content">
           <div class="clients__name">Matthew Dix</div>
           <div class="clients__prof">Graphic Design</div>
@@ -504,7 +503,7 @@
       </div>
 
       <div class="clients__item">
-        <img class="clients__photo" src="./images/clients/2.png" alt="Nick Karvounis">
+        <img class="clients__photo" src="<%=require('./images/clients/2.png')%>" alt="Nick Karvounis">
         <div class="clients__content">
           <div class="clients__name">Nick Karvounis</div>
           <div class="clients__prof">Graphic Design</div>
@@ -513,7 +512,7 @@
       </div>
       
       <div class="clients__item">
-        <img class="clients__photo" src="./images/clients/3.png" alt="Jaelynn Castillo">
+        <img class="clients__photo" src="<%=require('./images/clients/3.png')%>" alt="Jaelynn Castillo">
         <div class="clients__content">
           <div class="clients__name">Jaelynn Castillo</div>
           <div class="clients__prof">Graphic Design</div>
@@ -522,7 +521,7 @@
       </div>
       
       <div class="clients__item">
-        <img class="clients__photo" src="./images/clients/4.png" alt="Mike Petrucci">
+        <img class="clients__photo" src="<%=require('./images/clients/4.png')%>" alt="Mike Petrucci">
         <div class="clients__content">
           <div class="clients__name">Mike Petrucci</div>
           <div class="clients__prof">Graphic Design</div>
@@ -546,7 +545,7 @@
       <div class="blog__item">
         <div class="blog__header">
           <a href="#">
-            <img class="blog__photo" src="./images/blog/1.jpg" alt="picture">
+            <img class="blog__photo" src="<%=require('./images/blog/1.jpg')%>" alt="picture">
           </a>
           <div class="blog__date">
             <div class="blog__date_day">15</div>Jan
@@ -573,7 +572,7 @@
       <div class="blog__item">
         <div class="blog__header">
           <a href="#">
-            <img class="blog__photo" src="./images/blog/2.jpg" alt="picture">
+            <img class="blog__photo" src="<%=require('./images/blog/2.jpg')%>" alt="picture">
           </a>
           <div class="blog__date">
             <div class="blog__date-day">15</div>Jan
@@ -600,7 +599,7 @@
       <div class="blog__item">
         <div class="blog__header">
           <a href="#">
-            <img class="blog__photo" src="./images/blog/3.jpg" alt="picture">
+            <img class="blog__photo" src="<%=require('./images/blog/3.jpg')%>" alt="picture">
           </a>
           <div class="blog__date">
             <div class="blog__date-day">15</div>Jan
@@ -691,7 +690,7 @@
 
         <div class="blogs">
           <div class="blogs__item">
-            <img class="blogs__img" src="./images/blogs/1.jpg" alt="blog cover">
+            <img class="blogs__img" src="<%=require('./images/blogs/1.jpg')%>" alt="blog cover">
             <div class="blogs__content">
               <a class="blogs__title" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
               <div class="blogs__date">Jan 9, 2016</div>
@@ -699,7 +698,7 @@
           </div>
 
           <div class="blogs__item">
-            <img class="blogs__img" src="./images/blogs/2.jpg" alt="blog cover">
+            <img class="blogs__img" src="<%=require('./images/blogs/2.jpg')%>" alt="blog cover">
             <div class="blogs__content">
               <a class="blogs__title" href="#">Lorem ipsum dolor sit amet</a>
               <div class="blogs__date">Jan 9, 2016</div>
@@ -707,7 +706,7 @@
           </div>
 
           <div class="blogs__item">
-            <img class="blogs__img" src="./images/blogs/3.jpg" alt="blog cover">
+            <img class="blogs__img" src="<%=require('./images/blogs/3.jpg')%>" alt="blog cover">
             <div class="blogs__content">
               <a class="blogs__title" href="#">sed do eiusmod tempor incididunt ut labore</a>
               <div class="blogs__date">Jan 9, 2016</div>
@@ -721,31 +720,31 @@
 
         <div class="instagram">
           <a class="instagram__item" href="#" target="blank">
-            <img src="./images/instagram/1.jpg" alt="picture from insta">
+            <img src="<%=require('./images/instagram/1.jpg')%>" alt="picture from insta">
           </a>
           <a class="instagram__item" href="#" target="blank">
-            <img src="./images/instagram/2.jpg" alt="picture from insta">
+            <img src="<%=require('./images/instagram/2.jpg')%>" alt="picture from insta">
           </a>
           <a class="instagram__item" href="#" target="blank">
-            <img src="./images/instagram/3.jpg" alt="picture from insta">
+            <img src="<%=require('./images/instagram/3.jpg')%>" alt="picture from insta">
           </a>
           <a class="instagram__item" href="#" target="blank">
-            <img src="./images/instagram/4.jpg" alt="picture from insta">
+            <img src="<%=require('./images/instagram/4.jpg')%>" alt="picture from insta">
           </a>
           <a class="instagram__item" href="#" target="blank">
-            <img src="./images/instagram/5.jpg" alt="picture from insta">
+            <img src="<%=require('./images/instagram/5.jpg')%>" alt="picture from insta">
           </a>
           <a class="instagram__item" href="#" target="blank">
-            <img src="./images/instagram/6.jpg" alt="picture from insta">
+            <img src="<%=require('./images/instagram/6.jpg')%>" alt="picture from insta">
           </a>
           <a class="instagram__item" href="#" target="blank">
-            <img src="./images/instagram/7.jpg" alt="picture from insta">
+            <img src="<%=require('./images/instagram/7.jpg')%>" alt="picture from insta">
           </a>
           <a class="instagram__item" href="#" target="blank">
-            <img src="./images/instagram/8.jpg" alt="picture from insta">
+            <img src="<%=require('./images/instagram/8.jpg')%>" alt="picture from insta">
           </a>
           <a class="instagram__item" href="#" target="blank">
-            <img src="./images/instagram/9.jpg" alt="picture from insta">
+            <img src="<%=require('./images/instagram/9.jpg')%>" alt="picture from insta">
           </a>
         </div>
       </div>
