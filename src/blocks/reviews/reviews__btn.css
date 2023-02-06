@@ -28,10 +28,10 @@
 
 @media screen and (max-width: 424px) {
   .reviews__btn--prev {
-    display: none;
+    transform: translateY(-80px) rotate(-135deg);
   }
 
   .reviews__btn--next {
-    display: none;
+    transform: translateY(-80px) rotate(45deg);
   }
 }

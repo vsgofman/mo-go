@@ -2,14 +2,12 @@
   width: 55px;
   height: 55px;
   padding: 12px 10px;
-
   font-size: 30px;
   background-color: #fce38a;
   border-right: 1px solid #f38181;
   line-height: 1;
   text-decoration: none;
   color: #f38181;
-
   transition: background .1s linear, color .1s linear;
 }
 

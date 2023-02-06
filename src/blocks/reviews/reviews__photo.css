@@ -27,6 +27,8 @@
 
 @media screen and (max-width: 580px) {
   .reviews__photo {
-    display: none;
+    position: relative;
+    align-self: center;
+    max-width: 100px;
   }
 }

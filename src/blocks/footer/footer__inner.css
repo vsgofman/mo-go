@@ -1,5 +1,19 @@
 .footer__inner {
-  padding-bottom: 65px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 65px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__inner {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .footer__inner {
+    justify-content: center;
+    padding-bottom: 15px;
+  }
 }

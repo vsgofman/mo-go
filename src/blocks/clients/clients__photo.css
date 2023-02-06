@@ -7,3 +7,15 @@
   left: 40px;
   z-index: 1;
 }
+
+@media screen and (max-width: 767px) {
+  .clients__photo {
+    left: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .clients__photo {
+    position: static;
+  }
+}

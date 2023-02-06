@@ -5,3 +5,9 @@
   margin-top: 20px;
   text-align: center;
 }
+
+@media screen and (max-width: 424px) {
+  .card__info {
+    margin-top: 10px;
+  }
+}

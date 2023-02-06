@@ -3,3 +3,9 @@
   max-width: 380px;
   display: flex;
 }
+
+@media screen and (max-width: 424px) {
+  .subscribe {
+    flex-wrap: wrap;
+  }
+}

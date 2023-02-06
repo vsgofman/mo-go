@@ -4,3 +4,15 @@
   color: #333333;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer__title {
+    margin: 15px 0;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .footer__title {
+    margin: 10px 0;
+  }
+}

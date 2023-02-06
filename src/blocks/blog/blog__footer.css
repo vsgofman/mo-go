@@ -6,3 +6,15 @@
   font-style: italic;
   color: #999999;
 }
+
+@media screen and (max-width: 767px) {
+  .blog__footer {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .blog__footer {
+    font-size: 13px;
+  }
+}

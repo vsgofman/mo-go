@@ -1,0 +1,30 @@
+.works__column {
+  flex: 1 1 0;
+}
+
+@media screen and (max-width: 767px) {
+  .works__column:nth-child(3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .works__column:nth-child(4) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .works__column {
+    flex:none;
+    width: 50%;
+  }
+
+  .works__column:nth-child(4) {
+    display: block;
+  }
+
+  .works__column:nth-child(3) {
+    display: block;
+  }
+}

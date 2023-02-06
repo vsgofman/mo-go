@@ -1,0 +1,23 @@
+.footer__column_second {
+  width: 29%;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__column_second {
+    width: 60%;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .footer__column_second {
+    width: 90%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__column_second {
+    width: 100%;
+  }
+}

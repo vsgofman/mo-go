@@ -3,3 +3,9 @@
   font-size: 14px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 424px) {
+  .works__title {
+    font-size: 13px;
+  }
+}

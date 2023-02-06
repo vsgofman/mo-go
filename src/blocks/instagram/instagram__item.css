@@ -1,8 +1,10 @@
 .instagram__item {
-  width: 32.33333%;
+  width: 33%;
   border-bottom: 1px solid #ffffff;
 }
 
 .instagram__item img {
   display: block;
+  width: 100%;
+  height: 100%;
 }

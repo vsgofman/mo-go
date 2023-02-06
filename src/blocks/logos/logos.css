@@ -4,6 +4,8 @@
   justify-content: center;
   justify-items: center;
   align-items: center;
+  width: 100%;
+  min-height: 100%;
 }
 
 @media screen and (max-width: 900px) {
@@ -17,14 +19,14 @@
 
 @media screen and (max-width: 600px) {
   .logos {
-    grid-template-columns: repeat(2, 133px);
-    grid-template-rows: repeat(3, 133px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 0;
   }
 }
 
 @media screen and (max-width: 424px) {
   .logos {
-    grid-template-columns: repeat(1, 133px);
-    grid-template-rows: repeat(3, 133px);
+    column-gap: 15px;
   }
 }

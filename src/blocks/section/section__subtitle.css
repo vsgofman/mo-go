@@ -6,13 +6,13 @@
   color: #333333;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .section__subtitle {
     font-size: 22px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
   .section__subtitle {
     font-size: 20px;
   }

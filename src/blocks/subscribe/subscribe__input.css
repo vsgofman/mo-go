@@ -2,11 +2,9 @@
   height: 40px;
   width: 60%;
   padding: 12px;
-
   background: #ffffff;
   border: 1px solid #e7e7e7;
   border-right: 0;
-
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   line-height: 1.1;
@@ -21,7 +19,14 @@
 
 .subscribe__input:focus {
   outline: 0;
-
   color: #ccc;
   border-color: #95e1d3;
+}
+
+@media screen and (max-width: 424px) {
+  .subscribe__input {
+    width: 100%;
+    border-right: 1px solid #e7e7e7;
+    margin-bottom: 5px;
+  }
 }

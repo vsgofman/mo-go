@@ -3,3 +3,16 @@
   flex-wrap: wrap;
   margin-top: 70px;
 }
+
+@media screen and (max-width: 970px) {
+  .clients {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .clients {
+    width: 100%;
+  }
+}

@@ -43,7 +43,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
   .stat__item {
     min-width: 260px;
     padding: 0;

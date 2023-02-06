@@ -17,6 +17,9 @@
 
 @media screen and (max-width: 580px) {
   .reviews__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     padding-left: 0;
   }
 }

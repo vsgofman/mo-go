@@ -3,12 +3,23 @@
   color: #999999;
 }
 
-.clients__text:before {
+.clients__text::before {
   content: "";
   display: block;
   width: 60px;
   height: 3px;
   margin: 15px 0;
-
   background-color: #f38181;
+}
+
+@media screen and (max-width: 550px) {
+  .clients__text::before {
+    margin: 15px auto;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .clients__text {
+    font-size: 13px;
+  }
 }

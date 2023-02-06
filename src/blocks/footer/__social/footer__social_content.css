@@ -1,6 +1,5 @@
 .footer__social_content {
   padding-top: 15px;
-
   font-size: 15px;
   color: #999999;
   font-style: italic;
@@ -11,9 +10,13 @@
   display: inline-block;
   vertical-align: middle;
   margin-left: 10px;
-
   font-size: 18px;
   color: #95e1d3;
-
   text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__social_content {
+    padding-top: 10px;
+  }
 }

@@ -1,0 +1,19 @@
+.footer__column_third {
+  width: 22%;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__column_third {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .footer__column_third {
+    width: 100%;
+    min-width: 250px;
+  }
+}

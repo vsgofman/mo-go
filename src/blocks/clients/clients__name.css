@@ -5,3 +5,9 @@
   color: #333333;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 424px) {
+  .clients__name {
+    font-size: 13px;
+  }
+}
