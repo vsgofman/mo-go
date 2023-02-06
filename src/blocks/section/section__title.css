@@ -14,3 +14,23 @@
   margin: 35px auto 40px;
   background-color: #f38181;
 }
+
+@media screen and (max-width: 767px) {
+  .section__title {
+    font-size: 26px;
+  }
+
+  .section__title:after {
+    margin: 20px auto 25px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .section__title {
+    font-size: 22px;
+  }
+
+  .section__title:after {
+    margin: 15px auto 20px;
+  }
+}

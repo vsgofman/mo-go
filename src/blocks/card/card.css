@@ -1,5 +1,13 @@
 .card {
   margin-top: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
 }

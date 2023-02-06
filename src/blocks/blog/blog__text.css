@@ -2,3 +2,9 @@
   font-size: 15px;
   color: #999999;
 }
+
+@media screen and (max-width: 424px) {
+  .blog__text {
+    font-size: 13px;
+  }
+}

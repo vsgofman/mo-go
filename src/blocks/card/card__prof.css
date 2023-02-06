@@ -4,3 +4,9 @@
   font-weight: 300;
   color: #999999;
 }
+
+@media screen and (max-width: 424px) {
+  .card__prof {
+    font-size: 12px;
+  }
+}

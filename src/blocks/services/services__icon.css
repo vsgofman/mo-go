@@ -4,3 +4,21 @@
   left: 28px;
   z-index: 1;
 }
+
+@media screen and (max-width: 900px) {
+  .services__icon {
+    left: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services__icon {
+    left: 18px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .services__icon {
+    left: 8px;
+  }
+}

@@ -1,4 +1,5 @@
 .card__inner {
+  width: 100%;
   background: linear-gradient(to bottom, #f38181, #fce38a);
   transition: transform .2s linear;
 }

@@ -3,3 +3,9 @@
   align-items: center;
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 767px) {
+  .blogs__item {
+    margin-bottom: 5px;
+  }
+}

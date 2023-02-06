@@ -1,7 +1,6 @@
 .reviews__btn {
   font-size: 0;
   color: transparent;
-
   position: absolute;
   top: 50%;
   z-index: 1;
@@ -13,19 +12,26 @@
   display: block;
   width: 18px;
   height: 18px;
-
   border-top: 2px solid #cccccc;
   border-right: 2px solid #cccccc;  
 }
 
 .reviews__btn--prev {
   left: 0;
-
   transform: translateY(-50%) rotate(-135deg);
 }
 
 .reviews__btn--next {
   right: 0;
-
   transform: translateY(-50%) rotate(45deg);
+}
+
+@media screen and (max-width: 424px) {
+  .reviews__btn--prev {
+    transform: translateY(-80px) rotate(-135deg);
+  }
+
+  .reviews__btn--next {
+    transform: translateY(-80px) rotate(45deg);
+  }
 }

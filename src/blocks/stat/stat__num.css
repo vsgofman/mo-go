@@ -4,3 +4,16 @@
   font-size: 72px;
   font-weight: 700;
 }
+
+@media screen and (max-width: 610px) {
+  .stat__num {
+    font-size: 65px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .stat__num {
+    font-size: 55px;
+  }
+}

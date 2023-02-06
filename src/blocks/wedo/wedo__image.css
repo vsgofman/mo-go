@@ -1,0 +1,9 @@
+.wedo__image {
+  width: 95%;
+}
+
+@media screen and (max-width: 1023px) {
+  .wedo__image {
+    width: 100%;
+  }
+}

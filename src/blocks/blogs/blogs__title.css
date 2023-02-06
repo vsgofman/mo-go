@@ -10,3 +10,9 @@
 .blogs__title:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 424px) {
+  .blogs__title {
+    font-size: 11px;
+  }
+}

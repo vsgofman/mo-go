@@ -1,3 +1,15 @@
 .section {
   padding: 90px 0;
 }
+
+@media screen and (max-width: 950px) {
+  .section {
+    padding: 70px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    padding: 40px 0;
+  }
+}

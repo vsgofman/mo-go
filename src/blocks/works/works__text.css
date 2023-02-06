@@ -3,3 +3,9 @@
   font-weight: 300;
   font-style: italic;
 }
+
+@media screen and (max-width: 424px) {
+  .works__text {
+    font-size: 13px;
+  }
+}

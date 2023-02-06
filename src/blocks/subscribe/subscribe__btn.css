@@ -2,18 +2,15 @@
   height: 40px;
   width: 40%;
   padding: 12px 30px;
-
   background-color: #95e1d3;
   border: 0;
   cursor: pointer;
-
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   line-height: 1.1;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
-
   transition: background .2s linear;
 }
 
@@ -23,4 +20,10 @@
 
 .subscribe__btn:focus {
   outline: 0;
+}
+
+@media screen and (max-width: 424px) {
+  .subscribe__btn {
+    width: 100%;
+  }
 }

@@ -11,7 +11,6 @@
   width: 60px;
   height: 3px;
   margin: 15px auto 0;
-
   background-color: #f38181;
 }
 
@@ -22,4 +21,14 @@
 
 .map__title a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 424px) {
+  .map__title {
+    font-size: 15px;
+  }
+
+  .map__title:after {
+    margin: 10px auto 0;
+  }
 }
