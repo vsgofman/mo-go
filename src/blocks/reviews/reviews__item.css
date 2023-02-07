@@ -19,7 +19,7 @@
   .reviews__item {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     padding-left: 0;
   }
 }

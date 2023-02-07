@@ -10,9 +10,10 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro {
     justify-content: start;
+    height: 50%;
     min-height: 550px;
     padding-bottom: 40px;
   }

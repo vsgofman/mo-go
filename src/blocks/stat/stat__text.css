@@ -3,3 +3,9 @@
   font-size: 14px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 610px) {
+  .stat__text {
+    text-align: left;
+  }
+}

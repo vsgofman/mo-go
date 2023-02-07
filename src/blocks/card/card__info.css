@@ -6,6 +6,12 @@
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  .card__info {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 424px) {
   .card__info {
     margin-top: 10px;

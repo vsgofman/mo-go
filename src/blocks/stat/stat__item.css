@@ -31,11 +31,11 @@
 @media screen and (max-width: 610px) {
   .stat__item {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 80%;
     min-width: 290px;
     padding: 5px 0 0 0;
+    margin-left: 20px;
   }
 
   .stat__item:last-child {
@@ -45,7 +45,9 @@
 
 @media screen and (max-width: 424px) {
   .stat__item {
+    width: 100%;
     min-width: 260px;
     padding: 0;
+    margin-left: 10px;
   }
 }

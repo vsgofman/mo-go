@@ -4,7 +4,7 @@
   color:  #ffffff;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
   .header__logo {
     font-size: 25px;
   }

@@ -8,4 +8,8 @@
     justify-items: center;
     row-gap: 20px;
   }
+
+  .services:nth-child(2) {
+    margin-bottom: 20px;
+  }
 }
